@@ -1,4 +1,22 @@
 
+@media only screen and (max-width:320px){
+    img{
+        width:80%;
+        /* flex-wrap: nowrap ; */
+    }
+    .navbar{
+        flex-wrap: nowrap;
+    }
+    .text-uppercase{
+        font-size: 16px;
+    }
+    
+    .site-main .project-area .button-group button{
+        font-family:Arial, Helvetica, sans-serif;
+        font: normal 500 16px/10px var(--roboto);
+    }
+    
+}
 
 /* if the viewport is equal to 340px or less than that */ 
 @media only screen and (max-width: 424px){
@@ -11,6 +29,16 @@
     {
         padding: 2%;
         margin: 0%;
+    }
+    
+   
+    .site-main .project-area .button-group button{
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .site-main > .services-area .services{
+        margin:1rem;
+        padding:1rem;
     }
 
     .navbar-toggler{
@@ -175,6 +203,31 @@
     }
     .text-uppercase{
         font-size: 16px;
+    }
+    .large{
+        font-size: 26px;
+    }
+    
+    .site-main .project-area .button-group button{
+        font-family:Arial, Helvetica, sans-serif;
+        font: normal 500 16px/10px var(--roboto);
+    }
+    .site-main .project-area .button-group button + button{
+        padding-left: 20px;
+        margin-bottom:20px ;
+    }
+    .title h4{
+        padding:10px;
+        /* align-items: left; */
+    }
+    .site-main > .services-area .services{
+        margin:1rem;
+        padding:1rem;
+    }
+    .site-main .subscribe-us-area .subscribe{
+        /* background: url(../img/subscribe-bg.png)  no-repeat; */
+        background:url(../img/subscribe-bg.png)  center center / cover no-repeat;
+
     }
     
 }
