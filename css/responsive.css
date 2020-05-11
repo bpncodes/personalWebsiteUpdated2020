@@ -25,7 +25,7 @@
 
     .header_area .main-menu .nav-item .nav-link{
         font-family: Arial, Helvetica, sans-serif;
-        font: 500;
+        /* font: 500; */
     }
     p.para {
         color: var(--text-color);
@@ -34,6 +34,34 @@
 
     .site-main .site-banner .site-title h1{
         font-size: 35px;
+    }
+
+    .site-main .brand-area .experience-area .years-area h2 > span{
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .font-roboto {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .title-text{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .title-h1{
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .site-main .subscribe-us-area .subscribe .subscribe-title h4{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    footer.footer-area .social h5{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .site-main .project-area .grid .our-project > .title h4{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .site-main .about-area .client .about-client h4{
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     .site-main .site-banner .site-title h4{
