@@ -218,6 +218,7 @@
     
     .site-main .project-area .button-group button{
         font-family:Arial, Helvetica, sans-serif;
+        font-size: small;
         /* font: normal 500 16px/10px ; */
     }
     .site-main .project-area .button-group button + button{
